@@ -1,0 +1,23 @@
+.maindiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seconddiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-cls{
+  width:400px;
+  height:350px;
+}
+@media screen and (max-width: 320px) {
+  .img-cls {
+    width: 300px; 
+    height: 350px; 
+    
+  }
+}
